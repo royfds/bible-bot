@@ -1,6 +1,6 @@
 {
   "name": "Bible Bot",
-  "description": "A simple but advanced Bible Bot made by Bots.DC",
+  "description": "A simple but advanced Bible Bot made by Bots.ROY",
   "logo": "https://verabogu.ru/wp-content/uploads/2019/09/5a3058d48d6fd9.9998606015131179085793.png",
   "keywords": [
     "telegram",
@@ -27,7 +27,7 @@
       "required": false
     },
     "FB_APIKEY": {
-      "description": "ONLY NEEDED IF `FIREBASE` IS SET TO TRUE. Get this value while creating a firebase app. Read documentation at https://github.com/dcdunkan/pastebin-bot",
+      "description": "ONLY NEEDED IF `FIREBASE` IS SET TO TRUE. Get this value while creating a firebase app. Read documentation at https://github.com/royfds/bible-bot",
       "value": "",
       "required": false
     },

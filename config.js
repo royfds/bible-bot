@@ -3,7 +3,7 @@ module.exports = config;
 
 config.bot = {
   start: {
-    msg: 'Hi there. This is a simple Bible Bot made by @dcdunkan from [Bots.DC](https://t.me/dcbots). Either click on the *Start Reading* button or use the /read command to start reading. Check the help, if you need to.\nRead about to get the source code!',
+    msg: 'Hi there. This is a simple Bible Bot made by @moviezbarn from [Bots.ROY](https://t.me/royfds). Either click on the *Start Reading* button or use the /read command to start reading. Check the help, if you need to.\nRead about to get the source code!',
     opts: { parse_mode: 'Markdown', disable_web_page_preview: true, reply_markup: { inline_keyboard: [[ { text: '📖 Start Reading →', callback_data: 'read_1' } ], [{ text: '📚 Help', callback_data: 'help' }, { text: '💬 About', callback_data: 'about' }]] }}
   },
   help: {
@@ -11,7 +11,7 @@ config.bot = {
     opts: { parse_mode: 'Markdown', disable_web_page_preview: true, reply_markup: { inline_keyboard: [[ { text: '📖 Read →', callback_data: 'read_1' }, { text: '💬 About', callback_data: 'about' }, { text: '🏡 Home', callback_data: 'home' }], [{ text: '📃 Valid Ref.', callback_data: 'valid_0' }, { text: '⚙️ Set Default', callback_data: 'default' }]] }}
   },
   about: {
-    msg: "Created by @dcdunkan from [Bots.DC](https://t.me/dcbots) using getbible.net API, also, [Telegraf](https://telegraf.js.org) in [Node.js](https://nodejs.org).\nBot version: 3.1.\nOpen source repository is now available in github.com/dcdunkan/bible-bot\nMade with ❤️ in memory of my friend *Shamil*.",
+    msg: "Created by @ROYFDS from [Bots.ROY](https://t.me/MOVIEZBARN) using getbible.net API, also, [Telegraf](https://telegraf.js.org) in [Node.js](https://nodejs.org).\nBot version: 3.1.\nOpen source repository is now available in github.com/royfds/bible-bot\nMade with ❤️ in my passion.",
     opts: { parse_mode: 'Markdown', disable_web_page_preview: true, reply_markup: { inline_keyboard: [[ { text: '📖 Read →', callback_data: 'read_1' }, { text: '📚 Help', callback_data: 'help' }, { text: '🏡 Home', callback_data: 'home' }], [{ text: '📃 Valid Ref.', callback_data: 'valid_0' }, { text: '⚙️ Set Default', callback_data: 'default' }]] }}
   },
   errors: {
@@ -98,7 +98,7 @@ config.bot = {
 if(process.env.FIREBASE == 'true'){
   if(process.env.FB_APIKEY === undefined || process.env.FB_AUTHDOMAIN === undefined || process.env.FB_DATABASEURL === undefined || process.env.FB_PROJECTID === undefined || process.env.FB_STORAGEBUCKET === undefined || process.env.FB_MESSAGINGSENDERID === undefined || process.env.FB_APPID === undefined){
     config.firebase = { status: false }
-    console.log('Firebase is set to be enabled. But some of the or all of the required parameters are undefined in env. Make sure you set all of the parameters which required using the documentation https://github.com/dcdunkan/bible-bot/blob/v3/')
+    console.log('Firebase is set to be enabled. But some of the or all of the required parameters are undefined in env. Make sure you set all of the parameters which required using the documentation https://github.com/royfds/bible-bot/blob/v3/')
   } else {
     console.log('Firebase is enabled.')
     config.firebase = {

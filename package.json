@@ -1,7 +1,7 @@
 {
   "name": "bible-bot-v2",
   "version": "1.0.0",
-  "description": "A simple Bible bot which can be used to read the whole Bible inside telegram, with 75+ versions in different languages. This is a second version of the old one. Could be useful for someone I believe. An opensource project. Node.js. ★ Star the repo if you like it. Find it over here: https://github.com/dcdunkan/bible-bot",
+  "description": "A simple Bible bot which can be used to read the whole Bible inside telegram, with 75+ versions in different languages. This is a second version of the old one. Could be useful for someone I believe. An opensource project. Node.js. ★ Star the repo if you like it. Find it over here: https://github.com/royfds/bible-bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcdunkan/bible-bot.git"
+    "url": "git+https://github.com/royfds/bible-bot"
   },
   "keywords": [
     "bible",
@@ -29,12 +29,12 @@
     "telegram-bot",
     "dcbots"
   ],
-  "author": "dcdunkan",
+  "author": "Royfds",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dcdunkan/bible-bot/issues"
+    "url": "https://github.com/royfds/bible-bot/issues"
   },
-  "homepage": "https://github.com/dcdunkan/bible-bot#readme",
+  "homepage": "https://github.com/royfds/bible-bot#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bible-reference-parser": "^3.0.1",
